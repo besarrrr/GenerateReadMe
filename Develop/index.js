@@ -20,6 +20,19 @@ const questions = () => {
             } 
         },
         {
+          type: 'input',
+          name: 'email',
+          message: 'What is your email?',
+          validate: nameInput => {
+              if (nameInput) {
+                  return true;
+              } else {
+                  console.log('Please enter an email address!');
+                  return false; 
+              }
+          } 
+        },
+        {
             type: 'input',
             name: 'title',
             message: 'What is the title of your project? (Required)',

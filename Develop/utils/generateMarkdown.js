@@ -14,6 +14,8 @@ function generateMarkdown(data) {
   
   * [Installation](#installation)
   * [Usage](#usage)
+  * [Github]((#github))
+  * [Contact](#contact)
   * [License](#license)
   
   ## Installation
@@ -24,9 +26,13 @@ function generateMarkdown(data) {
 
   ${data.usage}
 
-  ## Github Account
+  ## Github 
   
   https://github.com/${data.github}
+
+  ## Contact 
+
+  If you have any questions about this projects, please contact me directly at ${data.email}.
 
   ## License
   

@@ -38,9 +38,7 @@
   
   https://github.com/besarrrr
 
-  ## Contact 
 
-  If you have any questions about this projects, please contact me directly at gcesar13@yahoo.com.
 
   ## License
   
